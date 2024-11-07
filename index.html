@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinder Clone - 2024®️</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .details{
+            background: linear-gradient(to bottom, transparent,rgba(0,0,0,1.0));
+        }
+    </style>
+</head>
+<body>
+    <div class="w-full h-screen bg-black font-serif">
+        <div class="imagecontainer w-full h-screen relative overflow-hidden">
+            <div class="maincard w-[130%] z-[3] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[130%]">
+                <img class="w-full h-full object-cover" src="" alt="image">
+            </div>
+            <div class="incomingcard w-[130%] z-[2] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[130%]">
+                <img class="w-full h-full object-cover" src="" alt="image">
+            </div>
+        </div> 
+        <div class="w-full absolute top-0 left-0 z-[4] h-screen  flex flex-col justify-between">
+            <div class="navbar px-5 py-6 flex justify-between items-center text-white">
+                <div class="prfimg w-[3.3rem] h-[3.3rem] overflow-hidden rounded-full">
+                    <img class="w-full h-full object-cover" src="" alt="image">
+                </div>
+                <h3 class="font-semibold capitalize text-2xl tracking-normal">they liked you!</h3>
+                <div class="chaticon relative flex items-center justify-center rounded-full w-[3.3rem] h-[3.3rem] bg-white/20">
+                    <i class="opacity-80 ri-message-2-fill"></i>
+                    <div class="badge flex absolute w-5 h-5  bg-[#f1443b] items-center justify-center rounded-full top-0 right-0 -translate-y-[5px] -translate-x-[3px]">
+                        <h5 class="pb-1 text-[13px] font-[500]">5</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="detailscontainer w-full">
+                <div class="details px-5 py-5  w-full">
+                    <div class="ee location flex gap-3">
+                        <i class="w-[1.6rem] h-[1.6rem] font-semibold bg-white flex items-center justify-center rounded-full ri-corner-left-up-line"></i>
+                        <h3 class="text-white text-xl">Georgia, USA</h3>
+                    </div>
+                    <div class="ee name flex gap-3 text-white">
+                        <h1 class="font-medium tracking-tight text-7xl">Markeni</h1>
+                        <h1 class="font-medium tracking-tight text-7xl opacity-60">20</h1>
+                    </div>
+    
+    
+                    <div class="ee tags flex gap-2 text-white mt-4">
+                        <!-- <div class="tag flex items-center bg-white/30 px-3 py-1 rounded-full gap-3">
+                            <i class="ri-file-music-fill"></i>
+                            <h3 class="text-lg tracking-tight">Music</h3>
+                        </div> -->
+                        <!-- <div class="tag flex iems-center bg-white/30 px-3 py-1 rounded-full gap-3 ">
+                            <i class="ri-file-music-fill"></i>
+                            <h3 class="text-lg tracking-tight">Music</h3>
+                        </div>
+                        <div class="tag flex items-center bg-white/30 px-3 py-1 rounded-full gap-3">
+                            <i class="ri-file-music-fill"></i>
+                            <h3 class="text-lg tracking-tight">Music</h3>
+                        </div> -->
+                    </div>
+    
+                    <div class="ee bio text-white/80 mt-3">
+                        <h3 class="text-xl">Bio</h3>
+                        <p class="text-lg mt-2 leading-5"></p>
+                    </div>
+                    <div class="ee flex gap-2 items-center mt-5 ">
+                        <button class="deny py-3 rounded-xl w-1/2 bg-white">
+                            <i class="ri-close-line font-bold text-3xl"></i>
+                        </button>
+                        <button class="accept py-3 rounded-xl w-1/2 bg-[#f1443b]">
+                            <i class="ri-heart-2-fill font-bold text-white text-3xl"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
