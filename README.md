@@ -41,7 +41,7 @@ Ensure you have the following installed:
 Clone the repository and set up locally:
 ```bash
 git clone https://github.com/Rupak-25/GSAP-Basic-Project.git
-cd Tinder-Clone-2024
+cd GSAP-Basic-Project
 ```
 Install dependencies:
 ```bash
